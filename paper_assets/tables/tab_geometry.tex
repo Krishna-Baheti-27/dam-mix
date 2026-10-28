@@ -1,0 +1,25 @@
+\begin{tabular}{ll ccc}
+\toprule
+Dataset & Method & kNN purity & rare kNN purity & min. centre angle ($^\circ$) \\
+\midrule
+CIFAR-10-LT & ECL & 72.16{\scriptsize$\pm$0.21} & 75.57{\scriptsize$\pm$0.41} & 27.9{\scriptsize$\pm$1.1} \\
+ & ECL + CMO & 75.53{\scriptsize$\pm$0.23} & 76.81{\scriptsize$\pm$0.68} & 27.4{\scriptsize$\pm$0.8} \\
+ & ECL + CMO$_{r=1/2}$ & 75.99{\scriptsize$\pm$0.35} & 78.21{\scriptsize$\pm$0.52} & 29.3{\scriptsize$\pm$0.6} \\
+ & DAM-Mix (ours) & 76.28{\scriptsize$\pm$0.22} & 79.36{\scriptsize$\pm$0.49} & 30.9{\scriptsize$\pm$0.6} \\
+\addlinespace
+CIFAR-100-LT & ECL & 31.50{\scriptsize$\pm$0.42} & 19.79{\scriptsize$\pm$0.52} & 6.8{\scriptsize$\pm$1.0} \\
+ & ECL + CMO & 35.62{\scriptsize$\pm$0.40} & 24.65{\scriptsize$\pm$0.44} & 7.6{\scriptsize$\pm$0.4} \\
+ & ECL + CMO$_{r=1/2}$ & 35.98{\scriptsize$\pm$0.03} & 25.47{\scriptsize$\pm$0.34} & 7.4{\scriptsize$\pm$0.3} \\
+ & DAM-Mix (ours) & 35.62{\scriptsize$\pm$0.50} & 24.07{\scriptsize$\pm$0.32} & 7.5{\scriptsize$\pm$0.5} \\
+\addlinespace
+Fashion-MNIST-LT & ECL & 88.15{\scriptsize$\pm$0.06} & 93.66{\scriptsize$\pm$0.13} & 43.6{\scriptsize$\pm$0.5} \\
+ & ECL + CMO & 89.36{\scriptsize$\pm$0.01} & 94.80{\scriptsize$\pm$0.28} & 35.3{\scriptsize$\pm$1.5} \\
+ & ECL + CMO$_{r=1/2}$ & 89.42{\scriptsize$\pm$0.19} & 94.85{\scriptsize$\pm$0.25} & 39.4{\scriptsize$\pm$1.6} \\
+ & DAM-Mix (ours) & 89.29{\scriptsize$\pm$0.28} & 94.92{\scriptsize$\pm$0.31} & 38.9{\scriptsize$\pm$0.3} \\
+\addlinespace
+MNIST-LT & ECL & 98.81{\scriptsize$\pm$0.06} & 97.98{\scriptsize$\pm$0.09} & 45.1{\scriptsize$\pm$1.9} \\
+ & ECL + CMO & 98.76{\scriptsize$\pm$0.07} & 97.55{\scriptsize$\pm$0.14} & 42.5{\scriptsize$\pm$0.8} \\
+ & ECL + CMO$_{r=1/2}$ & 98.81{\scriptsize$\pm$0.04} & 97.85{\scriptsize$\pm$0.06} & 42.2{\scriptsize$\pm$0.2} \\
+ & DAM-Mix (ours) & 98.89{\scriptsize$\pm$0.06} & 98.12{\scriptsize$\pm$0.13} & 41.8{\scriptsize$\pm$1.3} \\
+\bottomrule
+\end{tabular}

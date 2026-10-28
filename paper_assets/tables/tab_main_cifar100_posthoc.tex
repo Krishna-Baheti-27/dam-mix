@@ -1,0 +1,12 @@
+\begin{tabular}{l c cccccccc}
+\toprule
+Method & Seeds & Acc. & Many & Med. & Few & F1 & Prec. & AUPRC & ECE$\downarrow$ \\
+\midrule
+Weighted CE & 3 & 26.13{\scriptsize$\pm$0.61} & 31.74{\scriptsize$\pm$1.62} & 31.41{\scriptsize$\pm$0.39} & 14.03{\scriptsize$\pm$0.60} & 25.05{\scriptsize$\pm$0.59} & 26.98{\scriptsize$\pm$0.63} & 23.66{\scriptsize$\pm$0.47} & 30.14{\scriptsize$\pm$0.33} \\
+ECL & 3 & 41.55{\scriptsize$\pm$0.53} & 60.31{\scriptsize$\pm$2.80} & 40.91{\scriptsize$\pm$0.31} & 21.68{\scriptsize$\pm$3.83} & 39.26{\scriptsize$\pm$1.07} & 39.99{\scriptsize$\pm$1.04} & 42.99{\scriptsize$\pm$0.56} & 2.96{\scriptsize$\pm$1.15} \\
+ECL + CMO & 3 & 45.02{\scriptsize$\pm$0.71} & 63.45{\scriptsize$\pm$2.87} & 38.61{\scriptsize$\pm$1.07} & \textbf{32.04}{\scriptsize$\pm$2.32} & 43.79{\scriptsize$\pm$0.30} & \textbf{45.94}{\scriptsize$\pm$0.71} & 47.59{\scriptsize$\pm$0.66} & 3.02{\scriptsize$\pm$0.56} \\
+ECL + CMO$_{r=1/2}$ & 3 & \textbf{46.07}{\scriptsize$\pm$0.31} & \textbf{65.25}{\scriptsize$\pm$1.10} & 40.94{\scriptsize$\pm$1.01} & 30.83{\scriptsize$\pm$2.01} & \textbf{44.28}{\scriptsize$\pm$0.74} & 45.74{\scriptsize$\pm$0.63} & \textbf{48.27}{\scriptsize$\pm$0.37} & \textbf{2.28}{\scriptsize$\pm$0.34} \\
+\midrule
+DAM-Mix (ours) & 3 & 45.24{\scriptsize$\pm$0.41} & 65.09{\scriptsize$\pm$2.92} & \textbf{41.14}{\scriptsize$\pm$0.79} & 28.09{\scriptsize$\pm$4.76} & 43.04{\scriptsize$\pm$1.40} & 45.01{\scriptsize$\pm$1.50} & 47.96{\scriptsize$\pm$0.65} & 2.62{\scriptsize$\pm$0.95} \\
+\bottomrule
+\end{tabular}

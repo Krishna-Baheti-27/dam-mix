@@ -1,0 +1,11 @@
+[la s0] ep 10/100 loss 0.172 acc 0.823 few 0.682 (0.3 min)
+[la s0] ep 20/100 loss 0.079 acc 0.843 few 0.775 (0.5 min)
+[la s0] ep 30/100 loss 0.072 acc 0.866 few 0.794 (0.8 min)
+[la s0] ep 40/100 loss 0.037 acc 0.847 few 0.722 (1.0 min)
+[la s0] ep 50/100 loss 0.020 acc 0.865 few 0.740 (1.2 min)
+[la s0] ep 60/100 loss 0.007 acc 0.877 few 0.772 (1.5 min)
+[la s0] ep 70/100 loss 0.001 acc 0.893 few 0.797 (1.7 min)
+[la s0] ep 80/100 loss 0.001 acc 0.892 few 0.787 (1.9 min)
+[la s0] ep 90/100 loss 0.001 acc 0.891 few 0.786 (2.2 min)
+[la s0] ep 100/100 loss 0.001 acc 0.892 few 0.791 (2.4 min)
+DONE la seed 0: acc 0.8921 few 0.7910 macroF1 0.8911 | post-hoc (tau=+0.9) acc 0.9060 few 0.8667 in 2.5 min

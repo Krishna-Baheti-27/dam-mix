@@ -1,0 +1,24 @@
+\begin{tabular}{ll c ccc cc}
+\toprule
+Setting & Method & Seeds & Acc. & Many & Few & $\Delta$ vs.\ CMO$_{r=1/2}$ & wins \\
+\midrule
+Duplicated classes & ECL & 5 & 68.41{\scriptsize$\pm$0.29} & \textbf{59.31}{\scriptsize$\pm$0.32} & 70.67{\scriptsize$\pm$0.73} &  &  \\
+ & ECL + CMO & 5 & 69.42{\scriptsize$\pm$0.37} & 46.81{\scriptsize$\pm$0.67} & \textbf{85.07}{\scriptsize$\pm$0.55} &  &  \\
+ & ECL + CMO$_{r=1/2}$ & 5 & 70.92{\scriptsize$\pm$0.51} & 50.08{\scriptsize$\pm$1.40} & 84.64{\scriptsize$\pm$0.48} &  &  \\
+\cmidrule(l){2-8}
+ & DAM-Mix (ours) & 5 & 72.39{\scriptsize$\pm$0.52} & 54.87{\scriptsize$\pm$1.05} & 84.14{\scriptsize$\pm$0.61} & +1.46 (Acc.) & 5/5 \\
+ & DAM-Mix, gaps pooled within groups & 5 & 73.23{\scriptsize$\pm$0.23} & 56.77{\scriptsize$\pm$1.16} & 84.67{\scriptsize$\pm$1.08} & +2.31 (Acc.) & 5/5 \\
+\midrule
+2 minority classes & ECL & 5 & 86.71{\scriptsize$\pm$0.56} & \textbf{91.88}{\scriptsize$\pm$0.11} & 66.03{\scriptsize$\pm$2.77} &  &  \\
+ & ECL + CMO & 5 & 78.29{\scriptsize$\pm$1.08} & 76.50{\scriptsize$\pm$1.28} & \textbf{85.48}{\scriptsize$\pm$1.65} &  &  \\
+ & ECL + CMO$_{r=1/2}$ & 5 & 83.87{\scriptsize$\pm$0.57} & 83.69{\scriptsize$\pm$0.76} & 84.62{\scriptsize$\pm$1.22} &  &  \\
+\cmidrule(l){2-8}
+ & DAM-Mix (ours) & 5 & \textbf{87.02}{\scriptsize$\pm$0.36} & 87.83{\scriptsize$\pm$0.72} & 83.75{\scriptsize$\pm$1.67} & -0.87 (Few) & 2/5 \\
+\midrule
+5 minority classes & ECL & 5 & 73.85{\scriptsize$\pm$0.72} & \textbf{93.09}{\scriptsize$\pm$0.24} & 54.62{\scriptsize$\pm$1.66} &  &  \\
+ & ECL + CMO & 5 & 77.11{\scriptsize$\pm$0.38} & 86.42{\scriptsize$\pm$0.37} & 67.81{\scriptsize$\pm$0.98} &  &  \\
+ & ECL + CMO$_{r=1/2}$ & 5 & 77.43{\scriptsize$\pm$0.14} & 85.79{\scriptsize$\pm$0.84} & 69.08{\scriptsize$\pm$1.04} &  &  \\
+\cmidrule(l){2-8}
+ & DAM-Mix (ours) & 5 & \textbf{77.60}{\scriptsize$\pm$1.02} & 83.27{\scriptsize$\pm$1.95} & \textbf{71.92}{\scriptsize$\pm$0.59} & +2.85 (Few) & 5/5 \\
+\bottomrule
+\end{tabular}

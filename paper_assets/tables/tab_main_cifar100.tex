@@ -1,0 +1,14 @@
+\begin{tabular}{l c cccccccc}
+\toprule
+Method & Seeds & Acc. & Many & Med. & Few & F1 & Prec. & AUPRC & ECE$\downarrow$ \\
+\midrule
+CE & 3 & 36.54{\scriptsize$\pm$0.31} & \textbf{63.47}{\scriptsize$\pm$0.27} & 33.36{\scriptsize$\pm$0.63} & 10.59{\scriptsize$\pm$0.53} & 32.77{\scriptsize$\pm$0.38} & 40.89{\scriptsize$\pm$0.42} & 37.64{\scriptsize$\pm$0.45} & 37.89{\scriptsize$\pm$0.41} \\
+Weighted CE & 3 & 25.57{\scriptsize$\pm$0.46} & 41.63{\scriptsize$\pm$0.40} & 26.30{\scriptsize$\pm$0.75} & 7.13{\scriptsize$\pm$0.32} & 22.80{\scriptsize$\pm$0.47} & 29.99{\scriptsize$\pm$0.45} & 23.64{\scriptsize$\pm$0.50} & 28.32{\scriptsize$\pm$0.15} \\
+Logit-adjusted CE & 3 & 39.88{\scriptsize$\pm$0.79} & 56.51{\scriptsize$\pm$1.06} & 36.63{\scriptsize$\pm$1.34} & 25.32{\scriptsize$\pm$0.20} & 39.54{\scriptsize$\pm$0.82} & 40.80{\scriptsize$\pm$0.90} & 39.55{\scriptsize$\pm$0.83} & 28.37{\scriptsize$\pm$0.77} \\
+ECL & 3 & 41.63{\scriptsize$\pm$0.62} & 60.50{\scriptsize$\pm$0.61} & \textbf{41.04}{\scriptsize$\pm$0.54} & 21.59{\scriptsize$\pm$1.29} & 39.35{\scriptsize$\pm$0.63} & 39.92{\scriptsize$\pm$0.51} & 43.00{\scriptsize$\pm$0.57} & 2.74{\scriptsize$\pm$0.16} \\
+ECL + CMO & 3 & 43.00{\scriptsize$\pm$0.69} & 54.46{\scriptsize$\pm$0.63} & 36.23{\scriptsize$\pm$1.16} & 38.06{\scriptsize$\pm$0.26} & 43.69{\scriptsize$\pm$0.56} & \textbf{48.95}{\scriptsize$\pm$0.83} & 47.18{\scriptsize$\pm$0.59} & 3.08{\scriptsize$\pm$0.55} \\
+ECL + CMO$_{r=1/2}$ & 3 & 44.62{\scriptsize$\pm$0.31} & 55.94{\scriptsize$\pm$0.57} & 38.83{\scriptsize$\pm$1.24} & \textbf{38.74}{\scriptsize$\pm$0.28} & \textbf{44.87}{\scriptsize$\pm$0.48} & 48.89{\scriptsize$\pm$0.70} & \textbf{47.96}{\scriptsize$\pm$0.35} & 1.56{\scriptsize$\pm$0.30} \\
+\midrule
+DAM-Mix (ours) & 3 & \textbf{44.71}{\scriptsize$\pm$0.37} & 58.32{\scriptsize$\pm$0.84} & 39.51{\scriptsize$\pm$1.54} & 35.63{\scriptsize$\pm$0.13} & 44.37{\scriptsize$\pm$0.42} & 47.37{\scriptsize$\pm$0.39} & 47.81{\scriptsize$\pm$0.69} & \textbf{1.41}{\scriptsize$\pm$0.26} \\
+\bottomrule
+\end{tabular}

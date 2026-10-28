@@ -1,0 +1,14 @@
+/kaggle/working/dam-ecl/damecl/train.py:221: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  ep_loss += float(loss)
+[supcon s2] ep 10/100 loss 3.192 acc 0.392 few 0.030 (0.6 min)
+[supcon s2] ep 20/100 loss 3.033 acc 0.507 few 0.105 (1.1 min)
+[supcon s2] ep 30/100 loss 2.952 acc 0.561 few 0.241 (1.6 min)
+[supcon s2] ep 40/100 loss 2.871 acc 0.539 few 0.205 (2.1 min)
+[supcon s2] ep 50/100 loss 2.822 acc 0.609 few 0.292 (2.6 min)
+[supcon s2] ep 60/100 loss 2.758 acc 0.634 few 0.317 (3.1 min)
+[supcon s2] ep 70/100 loss 2.696 acc 0.652 few 0.321 (3.6 min)
+[supcon s2] ep 80/100 loss 2.636 acc 0.688 few 0.434 (4.1 min)
+[supcon s2] ep 90/100 loss 2.590 acc 0.695 few 0.447 (4.5 min)
+[supcon s2] ep 100/100 loss 2.570 acc 0.694 few 0.431 (5.0 min)
+DONE supcon seed 2: acc 0.6942 few 0.4310 macroF1 0.6855 in 5.1 min

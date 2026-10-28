@@ -1,0 +1,11 @@
+[wce s2] ep 10/100 loss 1.183 acc 0.352 few 0.246 (0.3 min)
+[wce s2] ep 20/100 loss 0.422 acc 0.787 few 0.716 (0.5 min)
+[wce s2] ep 30/100 loss 0.200 acc 0.832 few 0.830 (0.8 min)
+[wce s2] ep 40/100 loss 0.165 acc 0.827 few 0.702 (1.0 min)
+[wce s2] ep 50/100 loss 0.052 acc 0.858 few 0.760 (1.2 min)
+[wce s2] ep 60/100 loss 0.033 acc 0.884 few 0.793 (1.5 min)
+[wce s2] ep 70/100 loss 0.013 acc 0.863 few 0.737 (1.7 min)
+[wce s2] ep 80/100 loss 0.009 acc 0.864 few 0.723 (1.9 min)
+[wce s2] ep 90/100 loss 0.008 acc 0.865 few 0.728 (2.2 min)
+[wce s2] ep 100/100 loss 0.007 acc 0.866 few 0.732 (2.4 min)
+DONE wce seed 2: acc 0.8663 few 0.7325 macroF1 0.8656 | post-hoc (tau=+1.9) acc 0.8939 few 0.8715 in 2.5 min

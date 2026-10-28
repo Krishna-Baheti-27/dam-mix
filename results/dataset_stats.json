@@ -1,0 +1,37 @@
+[
+ {
+  "dataset": "cifar10",
+  "empty_share": 0.01862369106636989,
+  "label_mismatch_mean": 0.0644674077630043,
+  "label_mismatch_over_0.25": 0.01415,
+  "train_images": 12355
+ },
+ {
+  "dataset": "cifar100",
+  "empty_share": 0.02202357057571052,
+  "label_mismatch_mean": 0.07078208029270172,
+  "label_mismatch_over_0.25": 0.0186,
+  "train_images": 10626
+ },
+ {
+  "dataset": "svhn",
+  "empty_share": 0.0008398895621579359,
+  "label_mismatch_mean": 0.07027821242809296,
+  "label_mismatch_over_0.25": 0.01475,
+  "train_images": 11511
+ },
+ {
+  "dataset": "fmnist",
+  "empty_share": 0.6282474358812222,
+  "label_mismatch_mean": 0.13391754031181335,
+  "label_mismatch_over_0.25": 0.1641,
+  "train_images": 12355
+ },
+ {
+  "dataset": "mnist",
+  "empty_share": 0.8550922734975719,
+  "label_mismatch_mean": 0.16415031254291534,
+  "label_mismatch_over_0.25": 0.2465,
+  "train_images": 12355
+ }
+]

@@ -1,0 +1,11 @@
+[ecl s4] ep 10/100 loss 1.271 acc 0.519 few 0.407 (0.6 min)
+[ecl s4] ep 20/100 loss 1.086 acc 0.565 few 0.490 (1.1 min)
+[ecl s4] ep 30/100 loss 0.986 acc 0.673 few 0.640 (1.6 min)
+[ecl s4] ep 40/100 loss 0.909 acc 0.692 few 0.693 (2.0 min)
+[ecl s4] ep 50/100 loss 0.830 acc 0.692 few 0.629 (2.5 min)
+[ecl s4] ep 60/100 loss 0.780 acc 0.714 few 0.603 (3.0 min)
+[ecl s4] ep 70/100 loss 0.698 acc 0.743 few 0.647 (3.5 min)
+[ecl s4] ep 80/100 loss 0.640 acc 0.729 few 0.569 (4.0 min)
+[ecl s4] ep 90/100 loss 0.594 acc 0.766 few 0.674 (4.5 min)
+[ecl s4] ep 100/100 loss 0.580 acc 0.768 few 0.678 (5.0 min)
+DONE ecl seed 4: acc 0.7683 few 0.6777 macroF1 0.7678 | post-hoc (tau=+0.2) acc 0.7783 few 0.7213 in 5.1 min

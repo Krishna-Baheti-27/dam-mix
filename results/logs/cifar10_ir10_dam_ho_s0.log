@@ -1,0 +1,14 @@
+/kaggle/working/dam-ecl/damecl/train.py:221: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  ep_loss += float(loss)
+[dam_ho s0] ep 10/100 loss 1.503 acc 0.661 few 0.704 (0.9 min)
+[dam_ho s0] ep 20/100 loss 1.456 acc 0.719 few 0.727 (1.8 min)
+[dam_ho s0] ep 30/100 loss 1.538 acc 0.762 few 0.853 (2.6 min)
+[dam_ho s0] ep 40/100 loss 1.447 acc 0.775 few 0.789 (3.4 min)
+[dam_ho s0] ep 50/100 loss 1.327 acc 0.816 few 0.845 (4.3 min)
+[dam_ho s0] ep 60/100 loss 1.205 acc 0.847 few 0.863 (5.1 min)
+[dam_ho s0] ep 70/100 loss 1.076 acc 0.839 few 0.857 (5.9 min)
+[dam_ho s0] ep 80/100 loss 0.950 acc 0.824 few 0.837 (6.8 min)
+[dam_ho s0] ep 90/100 loss 0.839 acc 0.870 few 0.873 (7.6 min)
+[dam_ho s0] ep 100/100 loss 0.810 acc 0.872 few 0.878 (8.4 min)
+DONE dam_ho seed 0: acc 0.8717 few 0.8783 macroF1 0.8717 in 8.5 min

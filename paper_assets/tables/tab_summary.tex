@@ -1,0 +1,15 @@
+\begin{tabular}{lcccccccccc}
+\toprule
+Method & \multicolumn{2}{c}{CIFAR-10-LT} & \multicolumn{2}{c}{CIFAR-100-LT} & \multicolumn{2}{c}{Fashion-MNIST-LT} & \multicolumn{2}{c}{SVHN-LT} & \multicolumn{2}{c}{MNIST-LT} \\
+ & Acc. & Few & Acc. & Few & Acc. & Few & Acc. & Few & Acc. & Few \\
+\midrule
+CE & 67.8{\scriptsize$\pm$0.5} & 42.1{\scriptsize$\pm$0.7} & 36.5{\scriptsize$\pm$0.3} & 10.6{\scriptsize$\pm$0.5} & 87.7{\scriptsize$\pm$0.5} & 90.9{\scriptsize$\pm$0.8} & 85.9{\scriptsize$\pm$0.4} & 69.3{\scriptsize$\pm$1.2} & 98.2{\scriptsize$\pm$0.2} & 95.6{\scriptsize$\pm$0.5} \\
+Weighted CE & 63.6{\scriptsize$\pm$1.8} & 42.8{\scriptsize$\pm$3.8} & 25.6{\scriptsize$\pm$0.5} & 7.1{\scriptsize$\pm$0.3} & 88.3{\scriptsize$\pm$0.1} & 92.2{\scriptsize$\pm$0.7} & 86.6{\scriptsize$\pm$0.4} & 73.0{\scriptsize$\pm$0.3} & 98.4{\scriptsize$\pm$0.1} & 96.5{\scriptsize$\pm$0.2} \\
+Logit-adjusted CE & 73.5{\scriptsize$\pm$0.7} & 59.8{\scriptsize$\pm$2.1} & 39.9{\scriptsize$\pm$0.8} & 25.3{\scriptsize$\pm$0.2} & 88.9{\scriptsize$\pm$0.1} & 93.3{\scriptsize$\pm$0.2} & 89.4{\scriptsize$\pm$0.2} & 79.5{\scriptsize$\pm$0.5} & \textbf{98.9}{\scriptsize$\pm$0.1} & 97.7{\scriptsize$\pm$0.2} \\
+ECL & 76.4{\scriptsize$\pm$0.4} & 66.8{\scriptsize$\pm$1.2} & 41.6{\scriptsize$\pm$0.6} & 21.6{\scriptsize$\pm$1.3} & 90.1{\scriptsize$\pm$0.2} & 93.8{\scriptsize$\pm$0.8} & 87.3{\scriptsize$\pm$0.5} & 75.0{\scriptsize$\pm$0.8} & 98.9{\scriptsize$\pm$0.0} & 97.6{\scriptsize$\pm$0.2} \\
+ECL + CMO & 78.0{\scriptsize$\pm$0.6} & \textbf{84.1}{\scriptsize$\pm$1.2} & 43.0{\scriptsize$\pm$0.7} & 38.1{\scriptsize$\pm$0.3} & 88.9{\scriptsize$\pm$0.4} & \textbf{96.8}{\scriptsize$\pm$0.3} & 90.5{\scriptsize$\pm$0.5} & 82.8{\scriptsize$\pm$1.7} & 80.0{\scriptsize$\pm$1.4} & 98.1{\scriptsize$\pm$0.3} \\
+ECL + CMO$_{r=1/2}$ & 79.9{\scriptsize$\pm$0.2} & 84.0{\scriptsize$\pm$1.2} & 44.6{\scriptsize$\pm$0.3} & \textbf{38.7}{\scriptsize$\pm$0.3} & 91.1{\scriptsize$\pm$0.1} & 96.6{\scriptsize$\pm$0.3} & 90.9{\scriptsize$\pm$0.3} & 83.8{\scriptsize$\pm$1.2} & 88.4{\scriptsize$\pm$1.4} & \textbf{98.3}{\scriptsize$\pm$0.3} \\
+\midrule
+DAM-Mix (ours) & \textbf{80.5}{\scriptsize$\pm$0.4} & 83.7{\scriptsize$\pm$0.6} & \textbf{44.7}{\scriptsize$\pm$0.4} & 35.6{\scriptsize$\pm$0.1} & \textbf{91.4}{\scriptsize$\pm$0.1} & 96.6{\scriptsize$\pm$0.4} & \textbf{91.4}{\scriptsize$\pm$0.3} & \textbf{85.2}{\scriptsize$\pm$1.1} & 86.7{\scriptsize$\pm$1.0} & 98.1{\scriptsize$\pm$0.7} \\
+\bottomrule
+\end{tabular}

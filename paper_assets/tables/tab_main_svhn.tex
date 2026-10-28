@@ -1,0 +1,14 @@
+\begin{tabular}{l c ccccccccc}
+\toprule
+Method & Seeds & Acc. & Many & Med. & Few & F1 & G-Mean & Prec. & AUPRC & ECE$\downarrow$ \\
+\midrule
+CE & 3 & 85.94{\scriptsize$\pm$0.43} & \textbf{97.21}{\scriptsize$\pm$0.22} & 89.98{\scriptsize$\pm$0.40} & 69.29{\scriptsize$\pm$1.22} & 85.77{\scriptsize$\pm$0.47} & 85.03{\scriptsize$\pm$0.51} & 88.07{\scriptsize$\pm$0.31} & 94.29{\scriptsize$\pm$0.23} & 9.36{\scriptsize$\pm$0.33} \\
+Weighted CE & 3 & 86.56{\scriptsize$\pm$0.37} & 96.13{\scriptsize$\pm$0.35} & 89.58{\scriptsize$\pm$0.58} & 72.96{\scriptsize$\pm$0.32} & 86.47{\scriptsize$\pm$0.38} & 85.93{\scriptsize$\pm$0.39} & 88.25{\scriptsize$\pm$0.37} & 94.58{\scriptsize$\pm$0.23} & 8.49{\scriptsize$\pm$0.34} \\
+Logit-adjusted CE & 3 & 89.41{\scriptsize$\pm$0.21} & 96.48{\scriptsize$\pm$0.24} & 91.51{\scriptsize$\pm$0.25} & 79.55{\scriptsize$\pm$0.51} & 89.33{\scriptsize$\pm$0.22} & 89.09{\scriptsize$\pm$0.23} & 90.01{\scriptsize$\pm$0.20} & 95.57{\scriptsize$\pm$0.11} & 6.00{\scriptsize$\pm$0.25} \\
+ECL & 3 & 87.27{\scriptsize$\pm$0.50} & 95.82{\scriptsize$\pm$0.28} & 90.08{\scriptsize$\pm$0.85} & 74.96{\scriptsize$\pm$0.77} & 87.10{\scriptsize$\pm$0.50} & 86.74{\scriptsize$\pm$0.53} & 87.97{\scriptsize$\pm$0.42} & 94.14{\scriptsize$\pm$0.37} & \textbf{3.10}{\scriptsize$\pm$0.27} \\
+ECL + CMO & 3 & 90.50{\scriptsize$\pm$0.46} & 95.44{\scriptsize$\pm$0.23} & 92.59{\scriptsize$\pm$0.22} & 82.76{\scriptsize$\pm$1.69} & 90.46{\scriptsize$\pm$0.50} & 90.32{\scriptsize$\pm$0.52} & 90.74{\scriptsize$\pm$0.48} & 95.26{\scriptsize$\pm$0.31} & 3.50{\scriptsize$\pm$0.66} \\
+ECL + CMO$_{r=1/2}$ & 3 & 90.87{\scriptsize$\pm$0.30} & 95.42{\scriptsize$\pm$0.27} & 92.77{\scriptsize$\pm$0.51} & 83.77{\scriptsize$\pm$1.19} & 90.83{\scriptsize$\pm$0.31} & 90.72{\scriptsize$\pm$0.33} & 91.10{\scriptsize$\pm$0.26} & 95.47{\scriptsize$\pm$0.26} & 3.33{\scriptsize$\pm$0.82} \\
+\midrule
+DAM-Mix (ours) & 3 & \textbf{91.36}{\scriptsize$\pm$0.32} & 95.49{\scriptsize$\pm$0.03} & \textbf{92.91}{\scriptsize$\pm$0.29} & \textbf{85.15}{\scriptsize$\pm$1.11} & \textbf{91.32}{\scriptsize$\pm$0.33} & \textbf{91.23}{\scriptsize$\pm$0.36} & \textbf{91.52}{\scriptsize$\pm$0.30} & \textbf{95.61}{\scriptsize$\pm$0.33} & 4.30{\scriptsize$\pm$0.82} \\
+\bottomrule
+\end{tabular}

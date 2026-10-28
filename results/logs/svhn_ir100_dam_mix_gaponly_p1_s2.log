@@ -1,0 +1,11 @@
+[dam_mix s2] ep 10/100 loss 1.511 acc 0.861 few 0.858 (1.0 min)
+[dam_mix s2] ep 20/100 loss 1.342 acc 0.881 few 0.900 (1.9 min)
+[dam_mix s2] ep 30/100 loss 1.265 acc 0.853 few 0.918 (2.7 min)
+[dam_mix s2] ep 40/100 loss 1.208 acc 0.868 few 0.877 (3.6 min)
+[dam_mix s2] ep 50/100 loss 1.160 acc 0.907 few 0.860 (4.5 min)
+[dam_mix s2] ep 60/100 loss 1.111 acc 0.910 few 0.862 (5.4 min)
+[dam_mix s2] ep 70/100 loss 1.061 acc 0.913 few 0.860 (6.3 min)
+[dam_mix s2] ep 80/100 loss 1.011 acc 0.910 few 0.846 (7.2 min)
+[dam_mix s2] ep 90/100 loss 0.979 acc 0.912 few 0.846 (8.1 min)
+[dam_mix s2] ep 100/100 loss 0.969 acc 0.910 few 0.839 (8.9 min)
+DONE dam_mix seed 2: acc 0.9099 few 0.8395 macroF1 0.9094 | post-hoc (tau=+0.2) acc 0.9108 few 0.8715 in 9.0 min

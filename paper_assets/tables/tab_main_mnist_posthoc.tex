@@ -1,0 +1,14 @@
+\begin{tabular}{l c ccccccccc}
+\toprule
+Method & Seeds & Acc. & Many & Med. & Few & F1 & G-Mean & Prec. & AUPRC & ECE$\downarrow$ \\
+\midrule
+CE & 3 & 98.83{\scriptsize$\pm$0.11} & \textbf{99.88}{\scriptsize$\pm$0.02} & 99.11{\scriptsize$\pm$0.06} & 97.42{\scriptsize$\pm$0.36} & 98.83{\scriptsize$\pm$0.11} & 98.83{\scriptsize$\pm$0.11} & 98.84{\scriptsize$\pm$0.10} & 99.91{\scriptsize$\pm$0.02} & 0.42{\scriptsize$\pm$0.09} \\
+Weighted CE & 3 & 98.60{\scriptsize$\pm$0.14} & 99.60{\scriptsize$\pm$0.30} & 98.75{\scriptsize$\pm$0.09} & 97.41{\scriptsize$\pm$0.77} & 98.60{\scriptsize$\pm$0.14} & 98.60{\scriptsize$\pm$0.14} & 98.61{\scriptsize$\pm$0.13} & 99.89{\scriptsize$\pm$0.03} & 0.52{\scriptsize$\pm$0.32} \\
+Logit-adjusted CE & 3 & \textbf{98.95}{\scriptsize$\pm$0.07} & 99.81{\scriptsize$\pm$0.06} & 99.16{\scriptsize$\pm$0.10} & \textbf{97.81}{\scriptsize$\pm$0.12} & \textbf{98.95}{\scriptsize$\pm$0.07} & \textbf{98.95}{\scriptsize$\pm$0.07} & \textbf{98.95}{\scriptsize$\pm$0.07} & \textbf{99.92}{\scriptsize$\pm$0.01} & \textbf{0.28}{\scriptsize$\pm$0.03} \\
+ECL & 3 & 98.84{\scriptsize$\pm$0.09} & 99.73{\scriptsize$\pm$0.16} & 99.11{\scriptsize$\pm$0.09} & 97.58{\scriptsize$\pm$0.53} & 98.84{\scriptsize$\pm$0.09} & 98.83{\scriptsize$\pm$0.09} & 98.84{\scriptsize$\pm$0.09} & 99.90{\scriptsize$\pm$0.02} & 1.16{\scriptsize$\pm$0.75} \\
+ECL + CMO & 3 & 98.33{\scriptsize$\pm$0.28} & 98.22{\scriptsize$\pm$0.87} & 99.03{\scriptsize$\pm$0.13} & 97.50{\scriptsize$\pm$0.36} & 98.33{\scriptsize$\pm$0.28} & 98.32{\scriptsize$\pm$0.28} & 98.35{\scriptsize$\pm$0.26} & 99.67{\scriptsize$\pm$0.05} & 16.70{\scriptsize$\pm$1.32} \\
+ECL + CMO$_{r=1/2}$ & 3 & 98.58{\scriptsize$\pm$0.16} & 98.85{\scriptsize$\pm$0.91} & \textbf{99.17}{\scriptsize$\pm$0.14} & 97.51{\scriptsize$\pm$0.52} & 98.58{\scriptsize$\pm$0.16} & 98.57{\scriptsize$\pm$0.16} & 98.59{\scriptsize$\pm$0.15} & 99.72{\scriptsize$\pm$0.06} & 15.85{\scriptsize$\pm$2.12} \\
+\midrule
+DAM-Mix (ours) & 3 & 98.31{\scriptsize$\pm$0.16} & 97.81{\scriptsize$\pm$0.09} & 99.11{\scriptsize$\pm$0.11} & 97.75{\scriptsize$\pm$0.56} & 98.32{\scriptsize$\pm$0.16} & 98.31{\scriptsize$\pm$0.16} & 98.36{\scriptsize$\pm$0.15} & 99.69{\scriptsize$\pm$0.09} & 17.17{\scriptsize$\pm$0.33} \\
+\bottomrule
+\end{tabular}

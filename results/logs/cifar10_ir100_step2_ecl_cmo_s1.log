@@ -1,0 +1,11 @@
+[ecl_cmo s1] ep 10/100 loss 1.846 acc 0.628 few 0.874 (2.3 min)
+[ecl_cmo s1] ep 20/100 loss 1.651 acc 0.549 few 0.708 (4.6 min)
+[ecl_cmo s1] ep 30/100 loss 1.555 acc 0.586 few 0.880 (6.9 min)
+[ecl_cmo s1] ep 40/100 loss 1.499 acc 0.429 few 0.895 (9.2 min)
+[ecl_cmo s1] ep 50/100 loss 1.419 acc 0.756 few 0.814 (11.5 min)
+[ecl_cmo s1] ep 60/100 loss 1.343 acc 0.722 few 0.904 (13.7 min)
+[ecl_cmo s1] ep 70/100 loss 1.268 acc 0.735 few 0.860 (16.0 min)
+[ecl_cmo s1] ep 80/100 loss 1.176 acc 0.780 few 0.889 (18.3 min)
+[ecl_cmo s1] ep 90/100 loss 1.097 acc 0.766 few 0.866 (20.6 min)
+[ecl_cmo s1] ep 100/100 loss 1.054 acc 0.785 few 0.854 (22.9 min)
+DONE ecl_cmo seed 1: acc 0.7854 few 0.8535 macroF1 0.7965 | post-hoc (tau=-0.4) acc 0.8746 few 0.7110 in 23.0 min
